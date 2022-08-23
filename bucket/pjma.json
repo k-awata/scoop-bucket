@@ -1,0 +1,32 @@
+{
+    "version": "1.2.0",
+    "description": "Project manager for Aveva E3D Design and Administration",
+    "homepage": "https://github.com/k-awata/pjma",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/k-awata/pjma/releases/download/v1.2.0/pjma_1.2.0_windows_64-bit.zip",
+            "hash": "8e3aeded11ed032a5115463d8250fa779ea7e9713e37e75bcf55cd775b347d5c",
+            "extract_dir": "pjma_1.2.0_windows_64-bit"
+        },
+        "32bit": {
+            "url": "https://github.com/k-awata/pjma/releases/download/v1.2.0/pjma_1.2.0_windows_32-bit.zip",
+            "hash": "c1b784fd0d9a26cbbb7d1cabcf54e8375c3423364a2401674753a21b182ccfa5",
+            "extract_dir": "pjma_1.2.0_windows_32-bit"
+        }
+    },
+    "bin": "pjma.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_64-bit.zip",
+                "extract_dir": "pjma_$version_windows_64-bit"
+            },
+            "32bit": {
+                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_32-bit.zip",
+                "extract_dir": "pjma_$version_windows_32-bit"
+            }
+        }
+    }
+}
