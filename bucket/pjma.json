@@ -6,13 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/k-awata/pjma/releases/download/v1.2.0/pjma_1.2.0_windows_64-bit.zip",
-            "hash": "8e3aeded11ed032a5115463d8250fa779ea7e9713e37e75bcf55cd775b347d5c",
-            "extract_dir": "pjma_1.2.0_windows_64-bit"
+            "hash": "8e3aeded11ed032a5115463d8250fa779ea7e9713e37e75bcf55cd775b347d5c"
         },
         "32bit": {
             "url": "https://github.com/k-awata/pjma/releases/download/v1.2.0/pjma_1.2.0_windows_32-bit.zip",
-            "hash": "c1b784fd0d9a26cbbb7d1cabcf54e8375c3423364a2401674753a21b182ccfa5",
-            "extract_dir": "pjma_1.2.0_windows_32-bit"
+            "hash": "c1b784fd0d9a26cbbb7d1cabcf54e8375c3423364a2401674753a21b182ccfa5"
         }
     },
     "bin": "pjma.exe",
@@ -20,12 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_64-bit.zip",
-                "extract_dir": "pjma_$version_windows_64-bit"
+                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_32-bit.zip",
-                "extract_dir": "pjma_$version_windows_32-bit"
+                "url": "https://github.com/k-awata/pjma/releases/download/v$version/pjma_$version_windows_32-bit.zip"
             }
         }
     }

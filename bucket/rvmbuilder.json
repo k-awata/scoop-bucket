@@ -6,13 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/k-awata/rvmbuilder/releases/download/v0.1.1/rvmbuilder_0.1.1_windows_64-bit.zip",
-            "hash": "90d6026bbe6d641657c5bfe5911a5cee1898c95aee5030b6452b0266a51b6532",
-            "extract_dir": "rvmbuilder_0.1.1_windows_64-bit"
+            "hash": "90d6026bbe6d641657c5bfe5911a5cee1898c95aee5030b6452b0266a51b6532"
         },
         "32bit": {
             "url": "https://github.com/k-awata/rvmbuilder/releases/download/v0.1.1/rvmbuilder_0.1.1_windows_32-bit.zip",
-            "hash": "1dadfb6a3c4b2b969fbfc9b9ae799b9f11a9c56ba6bd24cec6257d927d6391ec",
-            "extract_dir": "rvmbuilder_0.1.1_windows_32-bit"
+            "hash": "1dadfb6a3c4b2b969fbfc9b9ae799b9f11a9c56ba6bd24cec6257d927d6391ec"
         }
     },
     "bin": "rvmbuilder.exe",
@@ -20,12 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/k-awata/rvmbuilder/releases/download/v$version/rvmbuilder_$version_windows_64-bit.zip",
-                "extract_dir": "rvmbuilder_$version_windows_64-bit"
+                "url": "https://github.com/k-awata/rvmbuilder/releases/download/v$version/rvmbuilder_$version_windows_64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/k-awata/rvmbuilder/releases/download/v$version/rvmbuilder_$version_windows_32-bit.zip",
-                "extract_dir": "rvmbuilder_$version_windows_32-bit"
+                "url": "https://github.com/k-awata/rvmbuilder/releases/download/v$version/rvmbuilder_$version_windows_32-bit.zip"
             }
         }
     }
