@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.1.1",
     "description": "dxfcriber extracts TEXT entities from DXF files and outputs their data to a CSV file.",
     "homepage": "https://github.com/k-awata/dxfcriber",
     "license": "MIT",
