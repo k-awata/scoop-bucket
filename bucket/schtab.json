@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "schtab sets tasks to Windows Task Scheduler from a text in crontab format.",
     "homepage": "https://github.com/k-awata/schtab",
     "license": "MIT",
