@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.1.1",
     "description": "rvmbuilder outputs a macro to export Aveva Review files and the Navisworks file from the json format options.",
     "homepage": "https://github.com/k-awata/rvmbuilder",
     "license": "MIT",
