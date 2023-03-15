@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.6.1",
     "description": "Batch processing utility using accoreconsole in AutoCAD or LT",
     "homepage": "https://github.com/k-awata/acadbp",
     "license": "MIT",
