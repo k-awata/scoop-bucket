@@ -1,13 +1,12 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "schtab sets tasks to Windows Task Scheduler from a text in crontab format.",
     "homepage": "https://github.com/k-awata/schtab",
     "license": "MIT",
-    "notes": "This application requires .NET Runtime 7.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k-awata/schtab/releases/download/v0.1.0/schtab_0.1.0_win-x64.zip",
-            "hash": "7f1687ad9588b9a3b5e852e08f915fe6afaaf90b82df6e61bad1b6c81fa3b9d1"
+            "url": "https://github.com/k-awata/schtab/releases/download/v0.1.1/schtab_0.1.1_win-x64.zip",
+            "hash": "b9c3121cce5b4c0a3f38a7fde6b1fa52b6f4b6ee48505f92ae8f138fd1401b8a"
         }
     },
     "bin": "schtab.exe",
