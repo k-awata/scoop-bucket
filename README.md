@@ -18,6 +18,7 @@ scoop bucket add k-awata https://github.com/k-awata/scoop-bucket.git
 
 ```powershell
 scoop install acadbp
+scoop install dbbuilder
 scoop install dxfcriber
 scoop install pjma
 scoop install rvmbuilder
